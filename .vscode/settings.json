@@ -1,11 +1,18 @@
 {
     "cSpell.ignoreWords": [
+        "activationkey",
+        "attlocal",
         "cmbd",
         "cmdb",
+        "hammer",
+        "net",
+        "satellite",
         "webadmin"
     ],
     "cSpell.words": [
         "NOPASSWD",
-        "lineinfile"
+        "egrep",
+        "lineinfile",
+        "updateinfo"
     ]
 }
