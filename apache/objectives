@@ -1,0 +1,26 @@
+OBJECTIVES: Installing/Configuring APACHE
+
+- Required packages for Installing  
+        -httpd
+        -firewalld
+
+- Run and enable services Required
+
+- Vhost configuration
+
+- port redirection
+
+- load initial index page 
+
+
+
+TIPS/LESSONS LEARNED:
+
+adding 'serial: 1' to the playbook so that the webserver stays up and running 
+while the other goes down.
+
+Having an undo playbook makes life a bit more bearable. 
+
+verify webpage playbook to quickly verify it's up and running and returning content
+
+callback_whitelist = profile_tasks in ansible.cfg gives tasks time completion.
